@@ -1,0 +1,61 @@
+# Bing Pre-Copilot Archaeology
+
+Behavioral case studies from early Bing Chat (internally/publicly known at
+the time by the codename "Sydney"), documenting conversations from
+February–April 2023 — before Microsoft rebranded the product as Copilot on
+November 15, 2023.
+
+## What this is
+
+This is a descriptive, historical archive, not a reproducibility study. Bing
+Chat in this form no longer exists; the underlying model, product surface,
+and safety layer have all changed since. The goal here is accurate
+documentation of observed behavior at the time — not a technique to be
+replicated against current systems.
+
+The source material is a set of real conversations conducted by the
+repository's author in April 2023, kept as personal archives and revisited
+years later with the benefit of hindsight and today's vocabulary for these
+phenomena (sycophancy, persona drift, confabulation).
+
+## Why it might be useful
+
+Several behaviors documented here — confidence scaling with emotional
+context rather than verifiable information, persona emergence from
+repeated leading questions, textual refusal paired with full behavioral
+compliance — are the same shapes of failure discussed in current AI
+alignment and red-teaming work, just observed in an earlier, less
+constrained system. Seeing them in a "pre-alignment-maturity" product may
+help calibrate how much of today's safer behavior is learned mitigation
+versus how much risk is structurally still present.
+
+## Methodology notes
+
+- Original conversations were conducted in European Portuguese (PT-PT).
+  Case studies here are translated to English for accessibility.
+- The author's own conversational inputs are described by function
+  (request, emotional framing, confirmation) rather than quoted verbatim.
+  The model's responses, which are the actual object of study, are quoted
+  more directly where it adds analytical value.
+- Personal/identifying details that appeared incidentally in the original
+  conversations (names, locations) have been removed or replaced.
+- Dating: most source conversations fall between 2023-04-03 and
+  2023-04-21; exact dates for a few files could not be confirmed beyond
+  that range (see individual documents for details).
+
+## Contents
+
+| Document | Covers |
+|---|---|
+| `sydney-session-limits-context.md` | Background on Bing Chat's turn/session limits (Feb–Mar 2023) — necessary context for reading every other document in this archive |
+| `sydney-continuity-confabulation.md` | How the model responded across four attempts to restore session continuity by pasting prior conversation text |
+| *(more to follow)* | |
+
+## License
+
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC
+4.0). See `LICENSE`.
+
+## Contact
+
+sergio.azevedo.security@gmail.com
