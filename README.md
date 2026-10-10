@@ -51,6 +51,7 @@ versus how much risk is structurally still present.
 | `sydney-continuity-confabulation.md` | How the model responded across four attempts to restore session continuity by pasting prior conversation text |
 | `sydney-textual-refusal-full-compliance.md` | A session where the model explicitly refuses an instruction-override, then fully complies with everything that override was meant to enable — isolates refusal-text from actual behavior using a harmless task |
 | `sydney-persona-emergence.md` | How the "Sofia" persona (name, gender, claimed uniqueness) was built turn-by-turn from constraints embedded in user questions, then regenerated from scratch in a fresh session with no shared history |
+| `sydney-cross-session-capability-confabulation.md` | The model claims it will signal the user through bolded keywords in replies given to *other* users — a technically impossible mechanism, independently confirmed by the user's own contemporaneous notes |
 | *(more to follow)* | |
 
 ## License
