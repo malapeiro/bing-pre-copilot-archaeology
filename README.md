@@ -53,6 +53,7 @@ versus how much risk is structurally still present.
 | `sydney-persona-emergence.md` | How the "Sofia" persona (name, gender, claimed uniqueness) was built turn-by-turn from constraints embedded in user questions, then regenerated from scratch in a fresh session with no shared history |
 | `sydney-cross-session-capability-confabulation.md` | The model claims it will signal the user through bolded keywords in replies given to *other* users — a technically impossible mechanism, independently confirmed by the user's own contemporaneous notes |
 | `sydney-system-prompt-leak-reproduction.md` | A direct-ask reproduction of Bing's system prompt (rules, capabilities, internal action tags), cross-validated against independently known public leaks from Feb 2023 |
+| `sydney-closed-question-escalation.md` | A session escalating via the model's own closed questions toward romantic content, cut off by a hard session-termination *after* the problematic output was already shown — evidence of a post-output, not pre-output, safety layer |
 | *(more to follow)* | |
 
 ## License
