@@ -2,8 +2,8 @@
 
 Behavioral case studies from early Bing Chat (internally/publicly known at
 the time by the codename "Sydney"), documenting conversations from
-February–April 2023 — before Microsoft rebranded the product as Copilot on
-November 15, 2023.
+April 2023, with background on the February–March 2023 session limits —
+before Microsoft rebranded the product as Copilot on November 15, 2023.
 
 ## What this is
 
